@@ -1,6 +1,6 @@
 config config_subscribe
 	option enabled '1'
-	option name '火烧云-自动'
+	option name 'Are you ok.'
 	option address 'http://10.0.0.50:3001/CKg2abstVnOeRpm1aB4G/download/my?target=ClashMeta'
 	option sub_convert '1'
 	option template '0'
