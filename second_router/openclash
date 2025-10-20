@@ -1,7 +1,7 @@
 config config_subscribe
 	option enabled '1'
 	option name 'Are you ok.'
-	option address 'http://10.0.0.50:3001/CKg2abstVnOeRpm1aB4G/download/my?target=ClashMeta'
+	option address 'http://10.0.0.50:3001/CKg2abstVnOeRpm1aB4G/download/test?target=ClashMeta'
 	option sub_convert '1'
 	option template '0'
 	option custom_template_url 'https://github.moeyy.xyz/https://raw.githubusercontent.com/liandu2024/clash/refs/heads/main/proxy/clash-all-globe-noicon.ini'
