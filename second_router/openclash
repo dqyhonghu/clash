@@ -4,7 +4,7 @@ config config_subscribe
 	option address 'http://10.0.0.50:3001/CKg2abstVnOeRpm1aB4G/download/test?target=ClashMeta'
 	option sub_convert '1'
 	option template '0'
-	option custom_template_url 'https://github.moeyy.xyz/https://raw.githubusercontent.com/liandu2024/clash/refs/heads/main/proxy/clash-all-globe-noicon.ini'
+	option custom_template_url 'https://raw.githubusercontent.com/liandu2024/clash/refs/heads/main/proxy/clash-all-globe-noicon.ini'
 	option emoji 'true'
 	option udp 'true'
 	option skip_cert_verify 'true'
@@ -15,118 +15,10 @@ config config_subscribe
 	option convert_address 'http://10.0.0.50:25500/sub'
 
 config dns_servers
-	option group 'nameserver'
-	option type 'udp'
-	option ip '211.137.64.163'
-	option enabled '0'
-
-config dns_servers
-	option group 'nameserver'
-	option type 'udp'
-	option ip '211.137.58.20'
-	option enabled '0'
-
-config dns_servers
 	option type 'https'
-	option ip 'doh.pub/dns-query'
+	option ip 'dns.nextdns.io/258df4'
 	option group 'nameserver'
 	option enabled '0'
-
-config dns_servers
-	option type 'https'
-	option ip 'dns.alidns.com/dns-query'
-	option group 'nameserver'
-	option enabled '0'
-
-config dns_servers
-	option enabled '0'
-	option group 'fallback'
-	option ip '9.9.9.9'
-	option type 'udp'
-
-config dns_servers
-	option enabled '0'
-	option group 'fallback'
-	option ip '149.112.112.112'
-	option type 'udp'
-
-config dns_servers
-	option enabled '0'
-	option group 'fallback'
-	option ip '2620:fe::fe'
-	option type 'udp'
-
-config dns_servers
-	option enabled '0'
-	option group 'fallback'
-	option ip '2620:fe::9'
-	option type 'udp'
-
-config dns_servers
-	option enabled '0'
-	option group 'nameserver'
-	option ip '8.8.8.8'
-	option type 'udp'
-
-config dns_servers
-	option enabled '0'
-	option group 'nameserver'
-	option ip '8.8.4.4'
-	option type 'udp'
-
-config dns_servers
-	option enabled '0'
-	option group 'fallback'
-	option ip '2001:4860:4860::8888'
-	option type 'udp'
-
-config dns_servers
-	option enabled '0'
-	option group 'fallback'
-	option ip '2001:4860:4860::8844'
-	option type 'udp'
-
-config dns_servers
-	option enabled '0'
-	option group 'fallback'
-	option ip '2001:da8::666'
-	option type 'udp'
-
-config dns_servers
-	option enabled '0'
-	option group 'fallback'
-	option ip 'dns.quad9.net'
-	option type 'tls'
-
-config dns_servers
-	option enabled '0'
-	option group 'fallback'
-	option ip 'dns.google'
-	option type 'tls'
-
-config dns_servers
-	option enabled '0'
-	option group 'nameserver'
-	option ip '1.1.1.1'
-	option type 'udp'
-
-config dns_servers
-	option enabled '0'
-	option group 'fallback'
-	option ip 'jp.tiar.app'
-	option type 'tls'
-
-config dns_servers
-	option enabled '0'
-	option group 'fallback'
-	option ip 'dot.tiar.app'
-	option type 'tls'
-
-config dns_servers
-	option enabled '0'
-	option group 'fallback'
-	option ip 'dns.quad9.net/dns-query'
-	option type 'https'
 
 config dns_servers
 	option enabled '0'
@@ -141,72 +33,6 @@ config dns_servers
 	option type 'https'
 
 config dns_servers
-	option enabled '0'
-	option group 'fallback'
-	option ip '1.1.1.1/dns-query'
-	option type 'https'
-
-config dns_servers
-	option enabled '0'
-	option group 'fallback'
-	option ip 'public.dns.iij.jp/dns-query'
-	option type 'https'
-
-config dns_servers
-	option enabled '0'
-	option group 'fallback'
-	option ip 'jp.tiar.app/dns-query'
-	option type 'https'
-
-config dns_servers
-	option enabled '0'
-	option group 'fallback'
-	option ip 'jp.tiarap.org/dns-query'
-	option type 'https'
-
-config dns_servers
-	option enabled '0'
-	option group 'fallback'
-	option type 'https'
-	option ip 'doh.dnslify.com/dns-query'
-
-config dns_servers
-	option enabled '0'
-	option group 'fallback'
-	option ip 'dns.twnic.tw/dns-query'
-	option type 'https'
-
-config dns_servers
-	option enabled '0'
-	option group 'fallback'
-	option ip 'dns.oszx.co/dns-query'
-	option type 'https'
-
-config dns_servers
-	option enabled '0'
-	option group 'fallback'
-	option ip 'doh.applied-privacy.net/query'
-	option type 'https'
-
-config dns_servers
-	option enabled '0'
-	option group 'fallback'
-	option ip '172.18.2.2'
-	option type 'tcp'
-
-config dns_servers
-	option enabled '0'
-	option group 'fallback'
-	option ip '172.18.2.2'
-	option type 'udp'
-
-config dns_servers
-	option enabled '0'
-	option group 'fallback'
-	option ip '172.18.2.2'
-	option type 'tls'
-
-config dns_servers
 	option type 'tcp'
 	option ip '223.5.5.5'
 	option enabled '0'
@@ -214,13 +40,7 @@ config dns_servers
 
 config dns_servers
 	option type 'tcp'
-	option ip '119.29.29.29'
-	option enabled '0'
-	option group 'default'
-
-config dns_servers
-	option type 'tcp'
-	option ip '114.114.114.114'
+	option ip '1.0.0.1'
 	option enabled '0'
 	option group 'default'
 
@@ -259,7 +79,7 @@ config openclash 'config'
 	option filter_aaaa_dns '0'
 	option small_flash_memory '0'
 	option interface_name '0'
-	option log_size '1024'
+	option log_size '4096'
 	option tolerance '100'
 	option store_fakeip '1'
 	option custom_fallback_filter '0'
